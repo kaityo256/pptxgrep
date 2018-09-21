@@ -9,11 +9,12 @@ Find keywords in pptx files. It will search pptx files recursively from the curr
 
 ## Build
 
-    dmd dgrep_pptx.d
+    $ dmd pptxgrep.d
+    $ alias pptxgrep=$PWD/pptxgrep # or put them somewhere in $PATH
 
 ## Usage
 
-    $ ./dgrep_pptx keyword
+    $ pptxgrep keyword
     Found "keyword" in hoge/hoge.pptx at slide 4
     Found "keyword" in hoge/hoge.pptx at slide 1
     Found "keyword" in test.pptx at slide 3
