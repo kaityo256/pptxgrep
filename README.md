@@ -6,7 +6,7 @@
 
 Find keywords in pptx files. It will search pptx files recursively from the current working directory.
 
-Descriptions written in Japanese are available [here](qiita.md).
+Descriptions in Japanese are available [here](qiita.md).
 
 ## Build
 
