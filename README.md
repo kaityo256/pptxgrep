@@ -1,5 +1,4 @@
-Grep keyword in Microsoft Powerpoint (pptx) files
-===
+# Grep keyword in Microsoft Powerpoint (pptx) files
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
@@ -7,10 +6,12 @@ Grep keyword in Microsoft Powerpoint (pptx) files
 
 Find keywords in pptx files. It will search pptx files recursively from the current working directory.
 
+Descriptions written in Japanese are available [here](qiita.md).
+
 ## Build
 
-    $ dmd pptxgrep.d
-    $ alias pptxgrep=$PWD/pptxgrep # or put them somewhere in $PATH
+    dmd pptxgrep.d
+    alias pptxgrep=$PWD/pptxgrep # or put them somewhere in $PATH
 
 ## Usage
 
