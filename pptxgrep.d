@@ -21,7 +21,12 @@ dstring extractText(string xmltext)
 
 void search(string keyword, string filename)
 {
-  auto zip = new ZipArchive(read(filename));
+  ZipArchive zip;
+  try{
+    zip = new ZipArchive(read(filename));
+  }catch(ZipException){
+    return;
+  }
   foreach (name, am; zip.directory)
   {
     foreach(m; match(name, r"ppt/slides/slide([0-9]+).xml$"))
